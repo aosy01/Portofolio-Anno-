@@ -9,8 +9,6 @@ lerna-debug.log*
 
 # dependencies
 node_modules/   
-public/images/
-
 
 # build
 dist/
