@@ -1,7 +1,7 @@
 [build]
   command = "npm run build"     # atau "yarn build"
-  publish = "dist"              # Vite output folder defaultnya "dist"
-  functions = "netlify/functions"  # kalau pakai serverless functions
+  publish = "/build"              # Vite output folder defaultnya "dist"
+  base = "/"
 
 [[redirects]]
   from = "/*"
