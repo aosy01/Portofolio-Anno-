@@ -1,9 +1,0 @@
-[build]
-  command = "npm run build"     # atau "yarn build"
-  publish = "/build"              # Vite output folder defaultnya "dist"
-  base = "/"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
