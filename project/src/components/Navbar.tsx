@@ -17,7 +17,7 @@ export default function Navbar() {
     { href: "#contact", label: "Contact", id: "contact" },
   ];
 
-  const logoSrc = "/logo.png";
+  const logoSrc = "/public/images/anno01.png";
 
   // DETEKSI SCROLL & UPDATE ACTIVE LINK
   useEffect(() => {
