@@ -42,7 +42,7 @@ export default function Projects() {
     {
       title: "Anthony Store Information System",
       description: "Designing an information system regarding Anthony's shop",
-      image: "/images/anthonystore.png",
+      image: "/images/anthonystore.jpg",
       tags: ["HTML", "Bootstrap", "CSS"],
       repoUrl: "https://github.com/aosy01/Website-Anthony-Store",
     },

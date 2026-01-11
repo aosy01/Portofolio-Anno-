@@ -23,18 +23,15 @@ interface OrganizationItem {
 export default function Experience() {
   const experiences: ExperienceItem[] = [
     {
-      title: "LCC Supervisor Committee",
-      company: "Institute of Technology Del x PT Inalum",
-      logo: "public/images/DELL.png",
-      period: "Sep 2024",
+      title: "Frontend Developer",
+      company: "BEM Institute of Technology Del",
+      logo: "public/images/bem.png",
+      period: "Sep 2025 - Nov 2025",
       description:
-        "Supervisor committee member for organizing collaborative events between Inalum and Del Institute of Technology.",
+        "Collaborating with the Student Executive Board (BEM) of the Del Institute of Technology to develop a BEM website platform. This project was built using Next.js for the frontend and Golang for the backend.",
       achievements: [
-        "Ensure that there are no technical or logistical obstacles that could hinder the event.",
-        "Ensure that the competition runs smoothly according to the schedule that has been set.",
-        "Ensure that all event equipment is complete and has been tested before the event begins.",
-        "Ensure that there is no cheating between participants who take part in the LCC.",
-        "Ensure that the score recording is correct according to what the participants get.",
+        "Successfully built a website display using NextJS",
+        "Successfully built a CRUD system on the website",
       ],
     },
     {
@@ -51,20 +48,35 @@ export default function Experience() {
       ],
     },
     {
-      title: "Frontend Developer",
-      company: "BEM Institute of Technology Del",
-      logo: "public/images/bem.png",
-      period: "Sep 2025 - Nov 2025",
+      title: "LCC Supervisor Committee",
+      company: "Institute of Technology Del x PT Inalum",
+      logo: "public/images/DELL.png",
+      period: "Sep 2024",
       description:
-        "Collaborating with the Student Executive Board (BEM) of the Del Institute of Technology to develop a BEM website platform. This project was built using Next.js for the frontend and Golang for the backend.",
+        "Supervisor committee member for organizing collaborative events between Inalum and Del Institute of Technology.",
       achievements: [
-        "Successfully built a website display using NextJS",
-        "Successfully built a CRUD system on the website",
+        "Ensure that there are no technical or logistical obstacles that could hinder the event.",
+        "Ensure that the competition runs smoothly according to the schedule that has been set.",
+        "Ensure that all event equipment is complete and has been tested before the event begins.",
+        "Ensure that there is no cheating between participants who take part in the LCC.",
+        "Ensure that the score recording is correct according to what the participants get.",
       ],
     },
   ];
 
   const organization: OrganizationItem[] = [
+    {
+      title: "BEM Department of Arts and Culture",
+      division: "Documentation and design division",
+      logo: "public/images/bem.png",
+      period: "2024 - 2025",
+      description: "",
+      achievements: [
+        "Record and store documentation of every event or organizational activity in the form of photos, videos, or writing.",
+        "Design logos, posters, banners, and other visual elements that reflect the identity of the organization.",
+        "Assist the organization in compiling systematic activity reports that can be used as references",
+      ],
+    },
     {
       title: "HIMATIF 2024 Cadre Formation Committee",
       division: "Sports Division",
@@ -76,18 +88,6 @@ export default function Experience() {
         "Ensure that the event goes according to plan well and smoothly",
         "Ensure the availability of tools and ensure the quality of tools and materials",
         "Ensure the participation of participants to achieve the goals of the event",
-      ],
-    },
-    {
-      title: "BEM Department of Arts and Culture",
-      division: "Documentation and design division",
-      logo: "https://upload.wikimedia.org/wikipedia/en/0/0a/Institut_Teknologi_Del_Logo.png",
-      period: "2024 - 2025",
-      description: "",
-      achievements: [
-        "Record and store documentation of every event or organizational activity in the form of photos, videos, or writing.",
-        "Design logos, posters, banners, and other visual elements that reflect the identity of the organization.",
-        "Assist the organization in compiling systematic activity reports that can be used as references",
       ],
     },
   ];
