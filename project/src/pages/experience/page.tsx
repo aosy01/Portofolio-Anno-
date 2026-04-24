@@ -1,6 +1,4 @@
 import { Briefcase } from "lucide-react";
-import AnimationedContent from "../../components/AnimatedContent";
-import LiquidEther from "../../components/LiquidEther";
 
 interface ExperienceItem {
   title: string;
@@ -23,7 +21,21 @@ interface OrganizationItem {
 export default function Experience() {
   const experiences: ExperienceItem[] = [
     {
-      title: "Frontend Developer",
+      title: "QA Engineer - Intern",
+      company: "PT. Asuransi Sinarmas",
+      logo: "public/images/Logo_Asuransi_Sinarmas.png",
+      period: "Feb 2026 - Aug 2026",
+      description:
+        "As an Intern QA Engineer at PT Asuransi Sinarmas, I am responsible for handling user issues on the website, conducting application testing to ensure system quality, and performing data scraping using Playwright to meet the company's needs.",
+      achievements: [
+        "Manage and handle customer cases in the insurance claims system using the Pega Platform and ensure processes run according to business flow.",
+        "Analyze and resolve system issues based on user needs and case conditions.",
+        "Conduct website testing using automation testing with Playwright to ensure proper system functionality.",
+        "Identify bugs, document test results, and coordinate with the team for system improvements.",
+      ],
+    },
+    {
+      title: "Frontend Developer - Freelance",
       company: "BEM Institute of Technology Del",
       logo: "public/images/bem.png",
       period: "Sep 2025 - Nov 2025",
@@ -32,34 +44,6 @@ export default function Experience() {
       achievements: [
         "Successfully built a website display using NextJS",
         "Successfully built a CRUD system on the website",
-      ],
-    },
-    {
-      title: "Committe Staff - Bioinformatics and Biodiversity Conference",
-      company: "Institute of Technology Del",
-      logo: "public/images/DELL.png",
-      period: "Nov 2025",
-      description:
-        "Del Institute of Technology held The 6th Bioinformatics and Biodiversity Conference (BBC) 2025. The program was supported by Telkom Indonesia and Telkom Solution, which provided advanced connectivity solutions and digital platforms leveraging Big Data and Artificial Intelligence (AI) for applications in the field of bioinformatics.",
-      achievements: [
-        "Ensure that invited guests enter the event room.",
-        "Ensure that all event supplies are in good condition.",
-        "Ensure that the event runs smoothly",
-      ],
-    },
-    {
-      title: "LCC Supervisor Committee",
-      company: "Institute of Technology Del x PT Inalum",
-      logo: "public/images/DELL.png",
-      period: "Sep 2024",
-      description:
-        "Supervisor committee member for organizing collaborative events between Inalum and Del Institute of Technology.",
-      achievements: [
-        "Ensure that there are no technical or logistical obstacles that could hinder the event.",
-        "Ensure that the competition runs smoothly according to the schedule that has been set.",
-        "Ensure that all event equipment is complete and has been tested before the event begins.",
-        "Ensure that there is no cheating between participants who take part in the LCC.",
-        "Ensure that the score recording is correct according to what the participants get.",
       ],
     },
   ];
@@ -78,6 +62,19 @@ export default function Experience() {
       ],
     },
     {
+      title: "Committe Staff - Bioinformatics and Biodiversity Conference",
+      division: "Committee Staff",
+      logo: "public/images/DELL.png",
+      period: "Nov 2025",
+      description:
+        "Del Institute of Technology held The 6th Bioinformatics and Biodiversity Conference (BBC) 2025. The program was supported by Telkom Indonesia and Telkom Solution, which provided advanced connectivity solutions and digital platforms leveraging Big Data and Artificial Intelligence (AI) for applications in the field of bioinformatics.",
+      achievements: [
+        "Ensure that invited guests enter the event room.",
+        "Ensure that all event supplies are in good condition.",
+        "Ensure that the event runs smoothly",
+      ],
+    },
+        {
       title: "HIMATIF 2024 Cadre Formation Committee",
       division: "Sports Division",
       logo: "public/images/himatif.png",
@@ -90,11 +87,26 @@ export default function Experience() {
         "Ensure the participation of participants to achieve the goals of the event",
       ],
     },
+    {
+      title: "LCC Supervisor Committee",
+      division: "Supervisor Committee",
+      logo: "public/images/DELL.png",
+      period: "Sep 2024",
+      description:
+        "Supervisor committee member for organizing collaborative events between Inalum and Del Institute of Technology.",
+      achievements: [
+        "Ensure that there are no technical or logistical obstacles that could hinder the event.",
+        "Ensure that the competition runs smoothly according to the schedule that has been set.",
+        "Ensure that all event equipment is complete and has been tested before the event begins.",
+        "Ensure that there is no cheating between participants who take part in the LCC.",
+        "Ensure that the score recording is correct according to what the participants get.",
+      ],
+    },
   ];
 
   return (
-    <AnimationedContent>
-      <div className="fixed inset-0 -z-10 overflow-hidden">
+    <>
+      {/* <div className="fixed inset-0 -z-10 overflow-hidden">
         <LiquidEther
           colors={["#5227FF", "#0046FF", "#B19EEF", "#8B5CF6"]}
           mouseForce={10}
@@ -112,7 +124,7 @@ export default function Experience() {
           autoResumeDelay={2500}
           autoRampDuration={0.7}
         />
-      </div>
+      </div> */}
 
       <section className="py-24 px-6 md:px-12 lg:px-24">
         <div className="max-w-7xl mx-auto">
@@ -258,6 +270,6 @@ export default function Experience() {
           </div>
         </div>
       </section>
-    </AnimationedContent>
+    </>
   );
 }

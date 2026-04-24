@@ -6,14 +6,14 @@ import Projects from "./pages/project/page";
 import Contact from "./pages/contact/page";
 import Navbar from "./components/Navbar";
 import ClickSpark from "./components/ClickSpark";
-import LiquidEther from "./components/LiquidEther";
+// import LiquidEther from "./components/LiquidEther";
 
 function App() {
   return (
     <ClickSpark>
       <div className="min-h-screen bg-black text-white">
         <Navbar />
-         <div className="fixed inset-0 -z-10 overflow-hidden">
+         {/* <div className="fixed inset-0 -z-10 overflow-hidden">
                 <LiquidEther
                   colors={["#5227FF", "#0046FF", "#B19EEF", "#8B5CF6"]}
                   mouseForce={10}
@@ -31,7 +31,7 @@ function App() {
                   autoResumeDelay={2500}
                   autoRampDuration={0.7}
                 />
-              </div>
+              </div> */}
         <main className="pt-24">                 
           <div id="hero">
             <Hero />

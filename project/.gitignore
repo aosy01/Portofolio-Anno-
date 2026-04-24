@@ -12,13 +12,13 @@ node_modules/
 
 # build
 dist-ssr/
-.next/                 🔥
-out/                   🔥
+.next/                 
+out/                   
 
 # local env files
 *.local
-.env                   🔥
-.env.local              🔥
+.env                   
+.env.local              
 
 # editors
 .vscode/*

@@ -1,7 +1,6 @@
 import { ExternalLink, Github } from "lucide-react";
 import AnimationedContent from "../../components/AnimatedContent";
 import SpotlightCard from "../../components/SpotlightCard";
-import LiquidEther from "../../components/LiquidEther";
 
 export default function Projects() {
   const projects = [
@@ -57,26 +56,7 @@ export default function Projects() {
   ];
 
   return (
-    <AnimationedContent>
-       <div className="fixed inset-0 -z-10 overflow-hidden">
-                    <LiquidEther
-                      colors={["#5227FF", "#0046FF", "#B19EEF", "#8B5CF6"]}
-                      mouseForce={10}
-                      cursorSize={50}
-                      isViscous={false}
-                      viscous={35}
-                      iterationsViscous={36}
-                      iterationsPoisson={36}
-                      resolution={0.3}
-                      isBounce={true}
-                      autoDemo={true}
-                      autoSpeed={0.4}
-                      autoIntensity={2.8}
-                      takeoverDuration={0.3}
-                      autoResumeDelay={2500}
-                      autoRampDuration={0.7}
-                    />
-                  </div>
+    <AnimationedContent>       
       <section className="py-24 px-6 md:px-12 lg:px-24 bg-gray-900/20">
         <div className="max-w-7xl mx-auto">
           {/* Judul */}

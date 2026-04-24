@@ -57,6 +57,7 @@ export default function Hero() {
   ];
 
   return (
+    <>
     <section className="min-h-screen">
       <section
         className="min-h-screen flex items-start justify-center px-6 md:px-12 lg:px-24 relative overflow-hidden bg-cover bg-center pt-24"
@@ -204,9 +205,13 @@ export default function Hero() {
               })}
             </div>
           </div>
-        </div>
-        
-      </section>
-    </section>
+        </div>                
+      </section>  
+    </section>  
+      
+      <div className="text-center py-6 text-gray-400">
+        © 2025 Anno D Siregar
+      </div>       
+    </>
   );
 }
