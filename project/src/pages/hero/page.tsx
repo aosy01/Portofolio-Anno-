@@ -207,11 +207,7 @@ export default function Hero() {
           </div>
         </div>                
       </section>  
-    </section>  
-      
-      <div className="text-center py-6 text-gray-400">
-        © 2025 Anno D Siregar
-      </div>       
+    </section>           
     </>
   );
 }
