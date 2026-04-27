@@ -23,7 +23,7 @@ export default function Experience() {
     {
       title: "QA Engineer - Intern",
       company: "PT. Asuransi Sinarmas",
-      logo: "public/images/Logo_Asuransi_Sinarmas.png",
+      logo: "/images/Logo_Asuransi_Sinarmas.png",
       period: "Feb 2026 - Aug 2026",
       description:
         "As an Intern QA Engineer at PT Asuransi Sinarmas, I am responsible for handling user issues on the website, conducting application testing to ensure system quality, and performing data scraping using Playwright to meet the company's needs.",
@@ -37,7 +37,7 @@ export default function Experience() {
     {
       title: "Frontend Developer - Freelance",
       company: "BEM Institute of Technology Del",
-      logo: "public/images/bem.png",
+      logo: "/images/bem.png",
       period: "Sep 2025 - Nov 2025",
       description:
         "Collaborating with the Student Executive Board (BEM) of the Del Institute of Technology to develop a BEM website platform. This project was built using Next.js for the frontend and Golang for the backend.",
@@ -52,7 +52,7 @@ export default function Experience() {
     {
       title: "BEM Department of Arts and Culture",
       division: "Documentation and design division",
-      logo: "public/images/bem.png",
+      logo: "/images/bem.png",
       period: "2024 - 2025",
       description: "",
       achievements: [
@@ -64,7 +64,7 @@ export default function Experience() {
     {
       title: "Committe Staff - Bioinformatics and Biodiversity Conference",
       division: "Committee Staff",
-      logo: "public/images/DELL.png",
+      logo: "/images/DELL.png",
       period: "Nov 2025",
       description:
         "Del Institute of Technology held The 6th Bioinformatics and Biodiversity Conference (BBC) 2025. The program was supported by Telkom Indonesia and Telkom Solution, which provided advanced connectivity solutions and digital platforms leveraging Big Data and Artificial Intelligence (AI) for applications in the field of bioinformatics.",
@@ -77,7 +77,7 @@ export default function Experience() {
         {
       title: "HIMATIF 2024 Cadre Formation Committee",
       division: "Sports Division",
-      logo: "public/images/himatif.png",
+      logo: "/images/himatif.png",
       period: "Nov 2024",
       description:
         "This is an annual program organized by the Information Technology Student Association (HIMATIF) to conduct cadre development and introduce the association to new students enrolled in the Information Technology study program.",
@@ -90,7 +90,7 @@ export default function Experience() {
     {
       title: "LCC Supervisor Committee",
       division: "Supervisor Committee",
-      logo: "public/images/DELL.png",
+      logo: "/images/DELL.png",
       period: "Sep 2024",
       description:
         "Supervisor committee member for organizing collaborative events between Inalum and Del Institute of Technology.",

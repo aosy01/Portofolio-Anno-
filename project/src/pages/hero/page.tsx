@@ -62,7 +62,7 @@ export default function Hero() {
     <section className="min-h-screen">
       <section
         className="min-h-screen flex items-start justify-center px-6 md:px-12 lg:px-24 relative overflow-hidden bg-cover bg-center pt-24"
-        style={{ backgroundImage: "url('public/images/background.jpg')" }}
+        style={{ backgroundImage: "url('/images/background.jpg')" }}
       >
         {/* Animated background */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -105,7 +105,7 @@ export default function Hero() {
                                     
                   
                 <TiltedCard
-                  imageSrc="public/images/anno.jpeg"
+                  imageSrc="/images/anno.jpeg"
                   altText="Anno Siregar"
                   captionText="Anno Siregar"
                   containerHeight="400px"
