@@ -1,6 +1,7 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import { useState, useEffect, useCallback } from "react";
 import "../../global.css";
+import TiltedCard from "../../components/TiltedCard";
 
 // import ClickSpark from "../../components/ClickSpark";
 // import AnimatedContent from "../../components/AnimatedContent";
@@ -95,37 +96,34 @@ export default function Hero() {
           >
             
             <div className="relative group flex flex-col items-center">
-              {/* Glowing ring */}
-              {/* <div className="absolute -inset-4 rounded-lg bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 blur-3xl opacity-30 group-hover:opacity-60 transition-opacity duration-700" /> */}
-
-              {/* Profile picture container - Square Box with pattern */}
-              <div className="relative w-80 h-100 md:w-80 md:h-96 rounded-3xl overflow-hidden bg-slate-950 p-1 shadow-2xl">
-                {/* Animated border gradient */}
-                <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-blue-500 via-purple-500 to-cyan-500 opacity-40 group-hover:opacity-70 transition-opacity duration-500 animate-pulse" />
-
-                {/* Inner container */}
-                <div className="relative w-full h-full rounded-3xl overflow-hidden bg-slate-950 backdrop-blur-sm">
-                  {/* Decorative grid pattern */}
+              
+              <div className="relative w-80 h-100 md:w-80 md:h-96 rounded-3xl overflow-hidden">
+                <div className="absolute inset-0 rounded-3xl bg-gradient-to-r" />
+                
+                <div className="relative w-full h-full rounded-3xl overflow-hidden">                  
                   <div className="absolute inset-0 bg-[linear-gradient(rgba(59,130,246,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(59,130,246,0.08)_1px,transparent_1px)] bg-[size:20px_20px] opacity-30" />
-
-                  {/* Decorative corners */}
-                  <div className="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-blue-400/50 rounded-tl-3xl" />
-                  <div className="absolute top-0 right-0 w-16 h-16 border-t-2 border-r-2 border-cyan-400/50 rounded-tr-3xl" />
-                  <div className="absolute bottom-0 left-0 w-16 h-16 border-b-2 border-l-2 border-purple-400/50 rounded-bl-3xl" />
-                  <div className="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-pink-400/50 rounded-br-3xl" />
-
-                  {/* Image container with transparency support */}
+                                    
                   
-                  <div className="absolute inset-0 flex items-end justify-center overflow-hidden">
-                    <img
-                      src="/images/Anno.png"
-                      alt="Anno Deritman Siregar"
-                      className="w-[80%] h-auto object-contain object-bottom group-hover:scale-105 transition-transform duration-700 drop-shadow-2xl"
-                      loading="lazy"
-                    />
-                  </div>
-                  
-                  {/* Subtle glow effect */}
+                <TiltedCard
+                  imageSrc="public/images/anno.jpeg"
+                  altText="Anno Siregar"
+                  captionText="Anno Siregar"
+                  containerHeight="400px"
+                  containerWidth="300px"
+                  imageHeight="350px"
+                  imageWidth="300px"
+                  rotateAmplitude={12}
+                  scaleOnHover={1.05}
+                  showMobileWarning={false}
+                  showTooltip
+                  displayOverlayContent
+                  // overlayContent={
+                  //   <p className="tilted-card-demo-text">
+                  //     Anno Siregar
+                  //   </p>
+                  // }
+                />
+                                    
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950/20 via-transparent to-slate-950/20 pointer-events-none" />
                 </div>
               </div>              
@@ -207,7 +205,7 @@ export default function Hero() {
           </div>
         </div>                
       </section>  
-    </section>           
+    </section>   
     </>
   );
 }

@@ -57,7 +57,7 @@ export default function Navbar() {
               }}
               className="w-9 h-9 rounded-full object-cover border border-cyan-500/50"
             /> */}
-            <span className="text-white font-bold text-lg tracking-tight ml-5">My Portofolio</span>
+            <span className="text-white font-bold text-lg tracking-tight ml-5">Anno's Portfolio</span>
           {/* </a> */}
 
           {/* GooeyNav — Otomatis Ikut Scroll! */}

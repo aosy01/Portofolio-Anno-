@@ -17,7 +17,9 @@ const certifications = [
     src: "/images/kader2024.jpg",
     name: "Kader 2024",
     description: [
-      "Participation in leadership training program for youth development.",
+      "Ensure that the event goes according to plan well and smoothly",
+      "Ensure the availability of tools and ensure the quality of tools and materials",
+      "Ensure the participation of participants to achieve the goals of the event",
     ],
     year: "2024",
   },
@@ -25,14 +27,20 @@ const certifications = [
     src: "/images/LCC_ANNO.png",
     name: "LCC Certificate",
     description: [
-      "Certificate from Leadership and Community Center activities.",
+      "Ensure that the event goes according to plan well and smoothly",
+      "Ensure the availability of tools and ensure the quality of tools and materials",
+      "Ensure the participation of participants to achieve the goals of the event",
     ],
     year: "2023",
   },
   {
     src: "/images/Committee_Anno.png",
     name: "Committee Certificate",
-    description: ["Recognition for committee work in organizational events."],
+    description: [
+      "Ensure that invited guests enter the event room.",
+      "Ensure that all event supplies are in good condition.",
+      "Ensure that the event runs smoothly",
+    ],
     year: "2023",
   },
   {
@@ -84,7 +92,7 @@ export default function Certification() {
                 />
                 <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <button className="bg-blue-500 hover:bg-blue-800/80 text-white px-4 py-2 rounded-lg font-semibold bg-shadow-lg shadow-blue-500/40">
-                    Click Me
+                    View Detail
                   </button>
                 </div>
               </div>
